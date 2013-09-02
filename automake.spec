@@ -19,6 +19,7 @@ BuildRequires:  autoconf
 Requires:   autoconf
 Requires(post):  /sbin/install-info
 Requires(preun): /sbin/install-info
+AutoReq: no
 
 %description
 Automake is a tool for automatically generating Makefiles compliant with the 
